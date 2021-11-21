@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+}
+header{
+	background-color: black;
+}
+img{
+	max-width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	margin: auto;
+}
+nav{
+	width: 80%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+
+}
+nav ul li{
+	list-style: none;	
+}
+nav ul li a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+	letter-spacing: 1px;
+	border-radius: 5px;
+
+}
+nav ul li a:hover{
+	color: orange;
+	background-color: white;
+
+}
+section{
+	background-color: #131E69;
+	
+
+}
+.banner{
+
+}
+.banner img{
+	width: 1000px;
+
+}
